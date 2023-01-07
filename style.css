@@ -59,11 +59,11 @@
     height: 80vh;
     width: 60vw;
 
-    /* border: solid 3px red; */
+    border: solid 3px red;
 }
 .input_wrapper {
     margin: 5% 0 5% 10%;
-    /* border: solid 3px red; */
+    border: solid 3px red;
 }
 .button {
     border: 0.5rem;
@@ -74,6 +74,9 @@
     font-size: 1.2rem;
     margin: 5% 0 5% 0;
     box-shadow: -7px -7px 7px -7px rgba(34, 60, 80, 0.6) inset;
+}
+#errorMessage {
+    border: solid 3px red;
 }
 .footer {
     grid-area: footer;
